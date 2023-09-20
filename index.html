@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="assets/fontawesome/css/all6.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all5.css">
+    <link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="assets/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+
+<body>
+    <div class="container pt-5">
+        <div class="col text-center">
+            <i class="fa-regular fa-clock" style="font-size: 70px"></i>
+            <i class="fa-regular fa-hourglass fa-fade" style="font-size: 70px"></i>
+            <h1><b>Cronômetro</b></h1>
+
+            <h1 style="font-weight: bold">
+                <span id="span1">0</span>
+                <span id="span2">0</span>
+                <span id="point">:</span>
+                <span id="span3">0</span>
+                <span id="span4">0</span>
+            </h1>
+        </div> <br>
+
+        <div class="col d-md-flex">
+            <button class="form-control" style="background: #299; color: white;" onClick="Iniciar()"
+                id="Iniciar">Iniciar</button>
+            <button class="form-control" style="background: #299; color: white;" onClick="Pausar()"
+                id="Pausar">Pausar</button>
+            <button class="form-control" style="background: red; color: white;" onClick="Parar()"
+                id="Parar">Parar</button>
+        </div>
+
+        <p class="text-center"><span class="text-danger">Criado por:</span> Eugénio Cachiombo <span class="text-success">(Génio Pró)</span></p>
+    </div>
+    <script src="assets/js/cronometro.js"></script>
+</body>
+
+</html>
